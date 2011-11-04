@@ -42,7 +42,7 @@ def isContextUrl(url):
 class TinyMCECompressorView(BrowserView):
     tiny_mce_gzip = ViewPageTemplateFile('tiny_mce_gzip.js')
 
-    def getConfiguration(script_url):
+    def getConfiguration(self, script_url):
          config = getToolByName(self.context,'portal_tinymce').getConfiguration(
                 context=self.context,
                 request=self.request,
