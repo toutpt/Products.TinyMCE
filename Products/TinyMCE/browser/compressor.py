@@ -46,7 +46,7 @@ class TinyMCECompressorView(BrowserView):
          config = getToolByName(self.context,'portal_tinymce').getConfiguration(
                 context=self.context,
                 request=self.request,
-                script_url=base_url,
+                script_url=script_url,
          )
          return config
 
@@ -67,7 +67,7 @@ class TinyMCECompressorView(BrowserView):
 			    name="plone_portal_state")
             base_url = '/'.join([portal_state.portal_url(), self.__name__])
         
-        config = self.getConfiguration(script_url)
+        config = self.getConfiguration(base_url)
 
         if not isJS:
             tiny_mce_gzip = self.tiny_mce_gzip(tinymce_json_config=config)
