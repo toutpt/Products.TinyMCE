@@ -42,6 +42,14 @@ def isContextUrl(url):
 class TinyMCECompressorView(BrowserView):
     tiny_mce_gzip = ViewPageTemplateFile('tiny_mce_gzip.js')
 
+    def getConfiguration(script_url):
+         config = getToolByName(self.context,'portal_tinymce').getConfiguration(
+                context=self.context,
+                request=self.request,
+                script_url=base_url,
+         )
+         return config
+
     # TODO: cache
     def __call__(self):
         plugins = self.request.get("plugins", "").split(',')
@@ -58,12 +66,8 @@ class TinyMCECompressorView(BrowserView):
             portal_state = getMultiAdapter((self.context, self.request),
 			    name="plone_portal_state")
             base_url = '/'.join([portal_state.portal_url(), self.__name__])
-
-        config = getToolByName(self.context,'portal_tinymce').getConfiguration(
-                context=self.context,
-                request=self.request,
-                script_url=base_url,
-            )
+        
+        config = self.getConfiguration(script_url)
 
         if not isJS:
             tiny_mce_gzip = self.tiny_mce_gzip(tinymce_json_config=config)
