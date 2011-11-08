@@ -4,6 +4,8 @@ try:
 except ImportError:
     import json
 
+from Acquisition import aq_inner
+
 from zope.interface import implements
 from zope.component import getUtility
 from zope.component import getMultiAdapter
@@ -29,9 +31,17 @@ class JSONDetails(object):
            of this object.
         """
 
-        utility = getUtility(ITinyMCE)
-        anchor_portal_types = utility.containsanchors.split('\n')
-        image_portal_types = utility.imageobjects.split('\n')
+        utility = getToolByName(aq_inner(self.context), 'portal_tinymce')
+        anchor_portal_types = {}
+        for apt in utility.containsanchors.splitlines():
+            if apt and '|' in apt:
+                type_, field  = apt.split('|', 1)
+            else:
+                type_ = apt
+                field = ''
+            anchor_portal_types[type_] = field
+
+        image_portal_types = utility.imageobjects.splitlines()
 
         results = {}
         results['title'] = self.context.title_or_id()
@@ -64,7 +74,8 @@ class JSONDetails(object):
 
         if self.context.portal_type in anchor_portal_types:
             content_anchors = self.context.restrictedTraverse('@@content_anchors')
-            results['anchors'] = content_anchors.listAnchorNames()
+            fieldname = anchor_portal_types[self.context.portal_type]
+            results['anchors'] = content_anchors.listAnchorNames(fieldname)
         else:
             results['anchors'] = []
         results.update(self.additionalDetails())
