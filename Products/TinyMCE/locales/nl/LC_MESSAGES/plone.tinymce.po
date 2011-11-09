@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.1\n"
-"POT-Creation-Date: 2011-11-04 15:17+0000\n"
+"POT-Creation-Date: 2011-11-09 16:38+0000\n"
 "PO-Revision-Date: 2009-09-20 13:24+0100\n"
 "Last-Translator: Rob Gietema <rob@fourdigits.nl>\n"
 "Language-Team: Rob Gietema <rob@fourdigits.nl>\n"
@@ -50,6 +50,10 @@ msgstr "Rechts uitlijnen"
 msgid "Allow captioned images"
 msgstr "Afbeelding onderschriften"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:32
+msgid "Anchor"
+msgstr ""
+
 #: ../interfaces/utility.py:336
 msgid "AtD Error types to show"
 msgstr ""
@@ -79,6 +83,10 @@ msgid "Browser"
 msgstr ""
 
 msgid "Call-out"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:84
+msgid "Caption"
 msgstr ""
 
 #: ../interfaces/utility.py:61
@@ -142,10 +150,18 @@ msgstr "Definitielijst"
 msgid "Definition term"
 msgstr ""
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:75
+msgid "Description"
+msgstr ""
+
 msgid "Disc"
 msgstr ""
 
 msgid "Discreet"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:183
+msgid "E-mail"
 msgstr ""
 
 #: ../interfaces/utility.py:290
@@ -159,6 +175,10 @@ msgstr "Editor hoogte"
 #: ../interfaces/utility.py:34
 msgid "Editor width"
 msgstr "Editor breedte"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:28
+msgid "Email"
+msgstr ""
 
 #: ../interfaces/utility.py:246
 msgid "Emotions"
@@ -217,8 +237,13 @@ msgstr ""
 
 #. Default: "External"
 #: ../interfaces/utility.py:85
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:24
 msgid "External"
 msgstr "Extern"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:158
+msgid "External link"
+msgstr ""
 
 msgid "Fancy grid listing"
 msgstr ""
@@ -275,6 +300,10 @@ msgstr "Afbeeldingen worden automatisch voorzien van een onderschrift."
 msgid "Indent"
 msgstr "Inspringen"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:92
+msgid "Inline"
+msgstr ""
+
 #: ../interfaces/utility.py:234
 msgid "Insert advanced horizontal ruler"
 msgstr "Geavanceerde scheidinglijn invoegen"
@@ -303,6 +332,10 @@ msgstr "Pagina-einde invoegen"
 msgid "Insert time"
 msgstr "Tijd invoegen"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:5
+msgid "Insert/Edit"
+msgstr ""
+
 #: ../interfaces/utility.py:214
 msgid "Insert/edit anchor"
 msgstr "Anker invoegen/wijzigen"
@@ -322,6 +355,10 @@ msgstr "Link invoegen/wijzigen"
 #: ../interfaces/utility.py:222
 msgid "Insert/edit media"
 msgstr "Media invoegen/wijzigen"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:20
+msgid "Internal"
+msgstr ""
 
 msgid "Invisible grid"
 msgstr ""
@@ -349,6 +386,10 @@ msgstr ""
 
 #: ../interfaces/utility.py:425
 msgid "Link Shortcuts"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:198
+msgid "Link to anchor"
 msgstr ""
 
 #: ../interfaces/utility.py:364
@@ -443,6 +484,7 @@ msgstr ""
 
 #. Default: "Preview"
 #: ../interfaces/utility.py:262
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:168
 msgid "Preview"
 msgstr "Voorbeeld"
 
@@ -529,6 +571,10 @@ msgid "Subdued grid"
 msgstr ""
 
 msgid "Subheading"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:190
+msgid "Subject"
 msgstr ""
 
 #: ../interfaces/utility.py:150
@@ -618,6 +664,10 @@ msgstr "TinyMCE instellingen"
 msgid "TinyMCE Visual Editor"
 msgstr "TinyMCE Visual Editor"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:68
+msgid "Title"
+msgstr ""
+
 #: ../interfaces/utility.py:294
 msgid "Toggle fullscreen mode"
 msgstr "Volledig scherm in-/uitschakelen"
@@ -634,6 +684,10 @@ msgstr "Toolbar"
 msgid "Toolbar width"
 msgstr "Toolbar breedte"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:16
+msgid "Type of link"
+msgstr ""
+
 #: ../interfaces/utility.py:142
 msgid "Underline"
 msgstr "Onderstrepen"
@@ -649,6 +703,14 @@ msgstr "Link verwijderen"
 #: ../interfaces/utility.py:182
 msgid "Unordered list"
 msgstr "Opsommingtekens"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:137
+msgid "Upload File"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:324
+msgid "Upload into current folder"
+msgstr ""
 
 msgid "Upper Alpha"
 msgstr ""
@@ -699,5 +761,14 @@ msgstr ""
 #. Default: "Editor Plugins"
 #: ../interfaces/utility.py:399
 msgid "label_tinymce_plugins"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:144
+msgid "or External URL"
+msgstr ""
+
+#. Default: "Edit without visual editor"
+#: ../skins/tinymce/tinymce_wysiwyg_support.pt:27
+msgid "suppress_visual_editor"
 msgstr ""
 

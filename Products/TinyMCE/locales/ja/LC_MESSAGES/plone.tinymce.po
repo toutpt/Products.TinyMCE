@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-04 15:17+0000\n"
+"POT-Creation-Date: 2011-11-09 16:38+0000\n"
 "PO-Revision-Date: 2010-08-21 17:33+0900\n"
 "Last-Translator: Takeshi Yamamoto (Retsu) <tyam@mac.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,10 @@ msgstr "右揃え"
 msgid "Allow captioned images"
 msgstr "キャプション付き画像を許す"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:32
+msgid "Anchor"
+msgstr ""
+
 #: ../interfaces/utility.py:336
 msgid "AtD Error types to show"
 msgstr ""
@@ -82,6 +86,10 @@ msgid "Browser"
 msgstr ""
 
 msgid "Call-out"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:84
+msgid "Caption"
 msgstr ""
 
 #: ../interfaces/utility.py:61
@@ -145,11 +153,19 @@ msgstr "定義リスト"
 msgid "Definition term"
 msgstr "定義語"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:75
+msgid "Description"
+msgstr ""
+
 msgid "Disc"
 msgstr "●（黒丸）"
 
 msgid "Discreet"
 msgstr "控え目"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:183
+msgid "E-mail"
+msgstr ""
 
 #: ../interfaces/utility.py:290
 msgid "Edit HTML Source"
@@ -162,6 +178,10 @@ msgstr "エディタ高"
 #: ../interfaces/utility.py:34
 msgid "Editor width"
 msgstr "エディタ幅"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:28
+msgid "Email"
+msgstr ""
 
 #: ../interfaces/utility.py:246
 msgid "Emotions"
@@ -220,8 +240,13 @@ msgstr "偶数行"
 
 #. Default: "External"
 #: ../interfaces/utility.py:85
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:24
 msgid "External"
 msgstr "外部"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:158
+msgid "External link"
+msgstr ""
 
 msgid "Fancy grid listing"
 msgstr "装飾的な枠線つき一覧"
@@ -278,6 +303,10 @@ msgstr "画像にキャプションが自動的に付けられます"
 msgid "Indent"
 msgstr "インデント"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:92
+msgid "Inline"
+msgstr ""
+
 #: ../interfaces/utility.py:234
 msgid "Insert advanced horizontal ruler"
 msgstr "カスタム水平線を挿入する"
@@ -306,6 +335,10 @@ msgstr "改ページを挿入する"
 msgid "Insert time"
 msgstr "時間を挿入する"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:5
+msgid "Insert/Edit"
+msgstr ""
+
 #: ../interfaces/utility.py:214
 msgid "Insert/edit anchor"
 msgstr "アンカーを挿入/編集する"
@@ -325,6 +358,10 @@ msgstr "リンクを挿入/編集する"
 #: ../interfaces/utility.py:222
 msgid "Insert/edit media"
 msgstr "メディアを挿入/編集する"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:20
+msgid "Internal"
+msgstr ""
 
 msgid "Invisible grid"
 msgstr "見えないグリッド"
@@ -352,6 +389,10 @@ msgstr ""
 
 #: ../interfaces/utility.py:425
 msgid "Link Shortcuts"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:198
+msgid "Link to anchor"
 msgstr ""
 
 #: ../interfaces/utility.py:364
@@ -446,6 +487,7 @@ msgstr ""
 
 #. Default: "Preview"
 #: ../interfaces/utility.py:262
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:168
 msgid "Preview"
 msgstr "プレビュー"
 
@@ -534,6 +576,10 @@ msgstr "落ち着いた感じの枠線"
 msgid "Subheading"
 msgstr "副見出し"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:190
+msgid "Subject"
+msgstr ""
+
 #: ../interfaces/utility.py:150
 msgid "Subscript"
 msgstr "下つき文字"
@@ -621,6 +667,10 @@ msgstr "TinyMCE 設定"
 msgid "TinyMCE Visual Editor"
 msgstr "TinyMCE ビジュアルエディタ"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:68
+msgid "Title"
+msgstr ""
+
 #: ../interfaces/utility.py:294
 msgid "Toggle fullscreen mode"
 msgstr "全画面モード切替"
@@ -637,6 +687,10 @@ msgstr "ツールバー"
 msgid "Toolbar width"
 msgstr "ツールバー幅"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:16
+msgid "Type of link"
+msgstr ""
+
 #: ../interfaces/utility.py:142
 msgid "Underline"
 msgstr "下線"
@@ -652,6 +706,14 @@ msgstr "リンク解除"
 #: ../interfaces/utility.py:182
 msgid "Unordered list"
 msgstr "順序なしリスト"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:137
+msgid "Upload File"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:324
+msgid "Upload into current folder"
+msgstr ""
 
 msgid "Upper Alpha"
 msgstr ""
@@ -702,5 +764,14 @@ msgstr ""
 #. Default: "Editor Plugins"
 #: ../interfaces/utility.py:399
 msgid "label_tinymce_plugins"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:144
+msgid "or External URL"
+msgstr ""
+
+#. Default: "Edit without visual editor"
+#: ../skins/tinymce/tinymce_wysiwyg_support.pt:27
+msgid "suppress_visual_editor"
 msgstr ""
 

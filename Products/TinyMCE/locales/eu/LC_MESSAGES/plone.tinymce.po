@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-04 15:17+0000\n"
+"POT-Creation-Date: 2011-11-09 16:38+0000\n"
 "PO-Revision-Date: 2011-01-05 15:28+0100\n"
 "Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,10 @@ msgstr "Eskuinera"
 msgid "Allow captioned images"
 msgstr "Irudi-oinak sartzea aktibatu"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:32
+msgid "Anchor"
+msgstr ""
+
 #: ../interfaces/utility.py:336
 msgid "AtD Error types to show"
 msgstr ""
@@ -80,6 +84,10 @@ msgstr ""
 
 msgid "Call-out"
 msgstr "Zita"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:84
+msgid "Caption"
+msgstr ""
 
 #: ../interfaces/utility.py:61
 msgid "Choose the CSS used in WYSIWYG Editor Area"
@@ -142,11 +150,19 @@ msgstr "Definizio zerrenda"
 msgid "Definition term"
 msgstr "Definizio-terminao"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:75
+msgid "Description"
+msgstr ""
+
 msgid "Disc"
 msgstr "Diskoa"
 
 msgid "Discreet"
 msgstr "Txikiz"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:183
+msgid "E-mail"
+msgstr ""
 
 #: ../interfaces/utility.py:290
 msgid "Edit HTML Source"
@@ -159,6 +175,10 @@ msgstr "Editorearen altuera"
 #: ../interfaces/utility.py:34
 msgid "Editor width"
 msgstr "Editorearen zabalera"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:28
+msgid "Email"
+msgstr ""
 
 #: ../interfaces/utility.py:246
 msgid "Emotions"
@@ -217,8 +237,13 @@ msgstr "Lerro bikoitia"
 
 #. Default: "External"
 #: ../interfaces/utility.py:85
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:24
 msgid "External"
 msgstr "Kanpokoak"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:158
+msgid "External link"
+msgstr ""
 
 msgid "Fancy grid listing"
 msgstr "Arrunta"
@@ -275,6 +300,10 @@ msgstr "Irudien oinak automatikoki ekarri."
 msgid "Indent"
 msgstr "Indentatu"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:92
+msgid "Inline"
+msgstr ""
+
 #: ../interfaces/utility.py:234
 msgid "Insert advanced horizontal ruler"
 msgstr "Marra sartu (konfiguratu egin daiteke)"
@@ -303,6 +332,10 @@ msgstr "Orri-saltoa sartu"
 msgid "Insert time"
 msgstr "Ordua sartu"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:5
+msgid "Insert/Edit"
+msgstr ""
+
 #: ../interfaces/utility.py:214
 msgid "Insert/edit anchor"
 msgstr "Aingura sartu/aldatu"
@@ -322,6 +355,10 @@ msgstr "Lotura sartu/aldatu"
 #: ../interfaces/utility.py:222
 msgid "Insert/edit media"
 msgstr "Kanpoko kodea sartu/editatu"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:20
+msgid "Internal"
+msgstr ""
 
 msgid "Invisible grid"
 msgstr "Ertz gabeko taula"
@@ -349,6 +386,10 @@ msgstr ""
 
 #: ../interfaces/utility.py:425
 msgid "Link Shortcuts"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:198
+msgid "Link to anchor"
 msgstr ""
 
 #: ../interfaces/utility.py:364
@@ -443,6 +484,7 @@ msgstr "Zelda arrunta"
 
 #. Default: "Preview"
 #: ../interfaces/utility.py:262
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:168
 msgid "Preview"
 msgstr "Aurreikusi"
 
@@ -531,6 +573,10 @@ msgstr "Saretxo argia"
 msgid "Subheading"
 msgstr "2. mailako goiburua"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:190
+msgid "Subject"
+msgstr ""
+
 #: ../interfaces/utility.py:150
 msgid "Subscript"
 msgstr "Azpi-indizez"
@@ -618,6 +664,10 @@ msgstr "TinyMCEren ezarpenak"
 msgid "TinyMCE Visual Editor"
 msgstr "TinyMCE editorea"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:68
+msgid "Title"
+msgstr ""
+
 #: ../interfaces/utility.py:294
 msgid "Toggle fullscreen mode"
 msgstr "Pantaila osoko modua aktibatu/desaktibatu"
@@ -634,6 +684,10 @@ msgstr "Tresna-barra"
 msgid "Toolbar width"
 msgstr "Tresna-barraren zabalera"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:16
+msgid "Type of link"
+msgstr ""
+
 #: ../interfaces/utility.py:142
 msgid "Underline"
 msgstr "Azpimarra"
@@ -649,6 +703,14 @@ msgstr "Lotura kendu"
 #: ../interfaces/utility.py:182
 msgid "Unordered list"
 msgstr "Ordenatu gabeko zerrenda"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:137
+msgid "Upload File"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:324
+msgid "Upload into current folder"
+msgstr ""
 
 msgid "Upper Alpha"
 msgstr "Hizki larriak"
@@ -699,5 +761,14 @@ msgstr ""
 #. Default: "Editor Plugins"
 #: ../interfaces/utility.py:399
 msgid "label_tinymce_plugins"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:144
+msgid "or External URL"
+msgstr ""
+
+#. Default: "Edit without visual editor"
+#: ../skins/tinymce/tinymce_wysiwyg_support.pt:27
+msgid "suppress_visual_editor"
 msgstr ""
 

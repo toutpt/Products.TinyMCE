@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-04 15:17+0000\n"
+"POT-Creation-Date: 2011-11-09 16:38+0000\n"
 "PO-Revision-Date: 2010-08-30 15:46+0300\n"
 "Last-Translator: Olha <olha.pelishok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,10 @@ msgstr "Вирівнювання по правому краю"
 msgid "Allow captioned images"
 msgstr "Дозволити підпис зображень"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:32
+msgid "Anchor"
+msgstr ""
+
 #: ../interfaces/utility.py:336
 msgid "AtD Error types to show"
 msgstr ""
@@ -82,6 +86,10 @@ msgid "Browser"
 msgstr ""
 
 msgid "Call-out"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:84
+msgid "Caption"
 msgstr ""
 
 #: ../interfaces/utility.py:61
@@ -144,10 +152,18 @@ msgstr "Список визначень"
 msgid "Definition term"
 msgstr "Термін визначення"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:75
+msgid "Description"
+msgstr ""
+
 msgid "Disc"
 msgstr "Диск"
 
 msgid "Discreet"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:183
+msgid "E-mail"
 msgstr ""
 
 #: ../interfaces/utility.py:290
@@ -161,6 +177,10 @@ msgstr "Висота редактора"
 #: ../interfaces/utility.py:34
 msgid "Editor width"
 msgstr "Ширина редактора"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:28
+msgid "Email"
+msgstr ""
 
 #: ../interfaces/utility.py:246
 msgid "Emotions"
@@ -218,8 +238,13 @@ msgid "Even row"
 msgstr "Парний рядок"
 
 #: ../interfaces/utility.py:85
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:24
 msgid "External"
 msgstr "Зовнішній"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:158
+msgid "External link"
+msgstr ""
 
 #, fuzzy
 msgid "Fancy grid listing"
@@ -277,6 +302,10 @@ msgstr "Зображення будуть автоматично отримув�
 msgid "Indent"
 msgstr "Збільшити відступ"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:92
+msgid "Inline"
+msgstr ""
+
 #: ../interfaces/utility.py:234
 msgid "Insert advanced horizontal ruler"
 msgstr "Вставити розширений горизонтальний роздільник"
@@ -305,6 +334,10 @@ msgstr "Вставити роздільник сторінок "
 msgid "Insert time"
 msgstr "Вставити час"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:5
+msgid "Insert/Edit"
+msgstr ""
+
 #: ../interfaces/utility.py:214
 msgid "Insert/edit anchor"
 msgstr "Вставити/редагувати якір"
@@ -324,6 +357,10 @@ msgstr "Вставити/редагувати посилання"
 #: ../interfaces/utility.py:222
 msgid "Insert/edit media"
 msgstr "Вставити/редагувати медіа об'єкт"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:20
+msgid "Internal"
+msgstr ""
 
 msgid "Invisible grid"
 msgstr "Невидима сітка"
@@ -350,6 +387,10 @@ msgstr ""
 
 #: ../interfaces/utility.py:425
 msgid "Link Shortcuts"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:198
+msgid "Link to anchor"
 msgstr ""
 
 #: ../interfaces/utility.py:364
@@ -443,6 +484,7 @@ msgid "Plain cell"
 msgstr "Звичайна комірка"
 
 #: ../interfaces/utility.py:262
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:168
 msgid "Preview"
 msgstr "Перегляд"
 
@@ -532,6 +574,10 @@ msgstr "Слабка сітка"
 msgid "Subheading"
 msgstr "Підзаголовок"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:190
+msgid "Subject"
+msgstr ""
+
 #: ../interfaces/utility.py:150
 msgid "Subscript"
 msgstr "Нижній індекс"
@@ -617,6 +663,10 @@ msgstr "Налаштування TinyMCE"
 msgid "TinyMCE Visual Editor"
 msgstr "Візуальний редактор TinyMCE "
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:68
+msgid "Title"
+msgstr ""
+
 #: ../interfaces/utility.py:294
 msgid "Toggle fullscreen mode"
 msgstr "Включити повноекранний режим"
@@ -633,6 +683,10 @@ msgstr "Панель інструментів"
 msgid "Toolbar width"
 msgstr "Ширина панелі інструментів"
 
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:16
+msgid "Type of link"
+msgstr ""
+
 #: ../interfaces/utility.py:142
 msgid "Underline"
 msgstr "Підкреслити"
@@ -648,6 +702,14 @@ msgstr "Видалити посилання"
 #: ../interfaces/utility.py:182
 msgid "Unordered list"
 msgstr "Ненумерований список"
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:137
+msgid "Upload File"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:324
+msgid "Upload into current folder"
+msgstr ""
 
 msgid "Upper Alpha"
 msgstr "Великі букви"
@@ -698,5 +760,14 @@ msgstr ""
 #. Default: "Editor Plugins"
 #: ../interfaces/utility.py:399
 msgid "label_tinymce_plugins"
+msgstr ""
+
+#: ../skins/tinymce/plugins/plonebrowser/plonebrowser.htm.pt:144
+msgid "or External URL"
+msgstr ""
+
+#. Default: "Edit without visual editor"
+#: ../skins/tinymce/tinymce_wysiwyg_support.pt:27
+msgid "suppress_visual_editor"
 msgstr ""
 
